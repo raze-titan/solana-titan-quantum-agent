@@ -1,0 +1,34 @@
+{
+  "name": "solana-titan-quantum-agent",
+  "version": "1.0.0",
+  "description": "Autonomous Quantum Capital Agent on Solana with Cross-DEX Flash Routing & Jito MEV Atomic Execution",
+  "main": "dist/agent.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/agent.js",
+    "simulate": "node scripts/simulate_devnet.js",
+    "test": "node scripts/simulate_devnet.js"
+  },
+  "keywords": [
+    "solana",
+    "autonomous-agent",
+    "steve-capital",
+    "jito-mev",
+    "meteora-dlmm",
+    "kamino",
+    "defi"
+  ],
+  "author": "raze-Titan <raze-titan@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.95.3",
+    "bs58": "^6.0.0",
+    "decimal.js": "^10.4.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2"
+  }
+}
