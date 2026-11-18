@@ -16,7 +16,7 @@ async function runDevnetSimulation() {
   console.log("   Powered by OOBE Protocol | Steve Capital Agent Spec V1.0      ");
   console.log("==========================================================================\n");
 
-  const TREASURY = process.env.AGENT_TREASURY_WALLET || "FoUCkodXsbK1T7AhCp2wcvCWmVEEgk8Q7nAByboiZNiC";
+  const TREASURY = process.env.AGENT_TREASURY_WALLET || "EBNDqfbShX7kivHQZCoR3FdUmzr6DFWjDA8Y8jMbWkuV";
   console.log(`[CONFIG] Operator Treasury Address: ${TREASURY}`);
   console.log(`[CONFIG] Network: Solana Devnet (Cluster: https://api.devnet.solana.com)`);
   console.log(`[CONFIG] Liquidity Engines: Meteora DLMM v1.2, Kamino Flash Lending, Orca Whirlpools\n`);

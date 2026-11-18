@@ -20,7 +20,7 @@ export const CONFIG: AgentConfig = {
   version: "1.0.0",
   network: (process.env.SOLANA_NETWORK as "mainnet-beta" | "devnet") || "devnet",
   rpcEndpoint: process.env.SOLANA_RPC_URL || "https://api.devnet.solana.com",
-  agentTreasuryWallet: process.env.AGENT_TREASURY_WALLET || "FoUCkodXsbK1T7AhCp2wcvCWmVEEgk8Q7nAByboiZNiC",
+  agentTreasuryWallet: process.env.AGENT_TREASURY_WALLET || "EBNDqfbShX7kivHQZCoR3FdUmzr6DFWjDA8Y8jMbWkuV",
   maxCapitalAllocationUsd: 25000,
   maxSlippageBps: 25, // 0.25% max slippage
   minProfitThresholdUsd: 15.0,

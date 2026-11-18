@@ -1,6 +1,6 @@
 # ⚡ Titan Quantum Capital Agent (Solana)
 
-[![Solana Devnet](https://img.shields.io/badge/Solana-Devnet%20Verified-blueviolet?style=for-the-badge&logo=solana)](https://solscan.io/account/FoUCkodXsbK1T7AhCp2wcvCWmVEEgk8Q7nAByboiZNiC)
+[![Solana Devnet](https://img.shields.io/badge/Solana-Devnet%20Verified-blueviolet?style=for-the-badge&logo=solana)](https://solscan.io/account/EBNDqfbShX7kivHQZCoR3FdUmzr6DFWjDA8Y8jMbWkuV)
 [![OOBE Protocol](https://img.shields.io/badge/OOBE%20Protocol-Steve%20Capital%20Spec%20V1.0-blue?style=for-the-badge)](https://earn.superteam.fun)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
@@ -44,7 +44,7 @@ The **Titan Quantum Capital Agent** is a next-generation autonomous liquidity ma
                                             │
                                             ▼
                          [ Operator Phantom Treasury Wallet ]
-                    FoUCkodXsbK1T7AhCp2wcvCWmVEEgk8Q7nAByboiZNiC
+                    EBNDqfbShX7kivHQZCoR3FdUmzr6DFWjDA8Y8jMbWkuV
 ```
 
 ---
@@ -58,7 +58,7 @@ The **Titan Quantum Capital Agent** is a next-generation autonomous liquidity ma
 | **Max Slippage Guard** | `25 bps (0.25%)` | Automated tx abort on high slippage |
 | **Max Drawdown Breaker** | `150 bps (1.50%)` | Emergency kill switch on sudden price shocks |
 | **Jito Priority Tip** | `100,000 lamports` | Sub-second block inclusion guarantee |
-| **Operator Treasury Wallet** | `FoUCkodXsbK1T7AhCp2wcvCWmVEEgk8Q7nAByboiZNiC` | Direct settlement address |
+| **Operator Treasury Wallet** | `EBNDqfbShX7kivHQZCoR3FdUmzr6DFWjDA8Y8jMbWkuV` | Direct settlement address |
 
 ---
 
@@ -80,7 +80,7 @@ Create a `.env` file (optional, defaults provided):
 ```env
 SOLANA_NETWORK=devnet
 SOLANA_RPC_URL=https://api.devnet.solana.com
-AGENT_TREASURY_WALLET=FoUCkodXsbK1T7AhCp2wcvCWmVEEgk8Q7nAByboiZNiC
+AGENT_TREASURY_WALLET=EBNDqfbShX7kivHQZCoR3FdUmzr6DFWjDA8Y8jMbWkuV
 ```
 
 ### 3. Run Autonomous Simulation
@@ -127,7 +127,7 @@ npm run simulate
 
 - **Listing:** [Build an Autonomous Capital Agent on Solana](https://earn.superteam.fun/listings/bounties/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards)
 - **Submitter:** [@raze-titan](https://github.com/raze-titan)
-- **Treasury Address:** `FoUCkodXsbK1T7AhCp2wcvCWmVEEgk8Q7nAByboiZNiC`
+- **Treasury Address:** `EBNDqfbShX7kivHQZCoR3FdUmzr6DFWjDA8Y8jMbWkuV`
 - **Simulation Proof:** Run `npm run simulate` to verify sub-second execution on Solana Devnet.
 
 ---
